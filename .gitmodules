@@ -1,0 +1,5 @@
+[submodule "public"]
+    path = public
+    url=https://github.com/jacknesstjh/public.git
+[submodule "themes/dream"]
+	url = https://github.com/jacknesstjh/dream.git
