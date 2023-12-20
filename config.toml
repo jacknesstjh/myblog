@@ -1,0 +1,38 @@
+baseurl = "https://jacknesstjh.github.io"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Be the change,you wanna see in the world"
+theme = "dream"
+
+# copyright = ""
+
+# googleAnalytics = ""
+
+# disqusShortname = ""
+
+# enableRobotsTXT = true
+
+[params]
+  background = "black"
+  # backgroundImage = "/me/background.jpg"
+  linkColor = "seagreen"
+
+  author = "Jackness Tang"
+  # description = ""
+  avatar = "/img/avatar.jpg"
+  motto = "Things change,Roll with it"
+  
+  email = "tjhchina@gmail.com"
+  github = "jacknesstjh"
+  # linkedin = ""
+  # codepen = ""
+  # stackoverflow = ""
+
+  siteStartYear = 2016
+
+  # favicon = "/favicon.ico"
+
+  # dark mode
+  darkLinkColor = "darkseagreen"
+  darkNav = true 
+  dark404Button = true
