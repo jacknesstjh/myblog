@@ -3,4 +3,4 @@
     url=https://github.com/jacknesstjh.github.io/public.git
 [submodule "themes/dream"]
     path = themes
-	url = https://github.com/jacknesstjh.github.io/dream.git
+    url = https://github.com/jacknesstjh.github.io/dream.git
