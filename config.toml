@@ -36,3 +36,4 @@ theme = "dream"
   darkLinkColor = "darkseagreen"
   darkNav = true 
   dark404Button = true
+  contentDir = "posts"
