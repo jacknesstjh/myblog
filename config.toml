@@ -2,7 +2,7 @@ baseurl = "https://jacknesstjh.github.io"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Be the change,you wanna see in the world"
-theme = "dream"
+theme = "hugo-theme-stack"
 
 # copyright = ""
 
