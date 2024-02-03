@@ -8,7 +8,7 @@ theme = "hugo-theme-stack"
 
 # googleAnalytics = ""
 
-# disqusShortname = ""
+disqusShortname = "tangjackness"
 
 # enableRobotsTXT = true
 
@@ -37,4 +37,3 @@ theme = "hugo-theme-stack"
   darkNav = true 
   dark404Button = true
   contentDir = "content/post"
-  disqusShortname = "tangjackness"
