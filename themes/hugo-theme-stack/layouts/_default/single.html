@@ -44,3 +44,10 @@
 {{ define "right-sidebar" }}
     {{ if .Scratch.Get "hasWidget" }}{{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}{{ end}}
 {{ end }}
+
+{{ if and .Params.comments (gt (len .Site.tangjackness) 0) }}
+    <figure class="article-discussion">
+      {{ template "_internal/disqus.html" . }}
+    </figure>
+{{ end }}
+
