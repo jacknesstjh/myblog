@@ -45,7 +45,3 @@
     {{ if .Scratch.Get "hasWidget" }}{{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}{{ end}}
 {{ end }}
 
-{{ if .Site.Params.tangjackness }}
-  {{ template "_internal/disqus.html" . }}
-{{ end }}
-
