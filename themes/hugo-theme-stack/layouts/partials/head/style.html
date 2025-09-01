@@ -12,7 +12,7 @@
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">{{ $sass := resources.Get "scss/style.scss" }} {{ $style := $sass | css.Sass}}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>| minify | resources.Fingerprint "sha256" }}</span></p>
+<p class="p1"><span class="s1">{{ $sass := resources.Get "scss/style.scss" }} {{ $style := $sass | css.Sass | minify | resources.Fingerprint "sha256"}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span></span></p>
 </body>
 </html>
