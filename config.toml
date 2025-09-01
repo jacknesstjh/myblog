@@ -37,3 +37,9 @@ disqusShortname = "tangjackness"
   darkNav = true 
   dark404Button = true
   contentDir = "content/post"
+
+  ignoreLogs = ['warning-goldmark-raw-html']
+
+  [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
