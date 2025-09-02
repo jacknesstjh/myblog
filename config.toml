@@ -20,10 +20,10 @@ disqusShortname = "tangjackness"
   [params.Author]
   author = "Jackness Tang"
   email = "tjhchina@gmail.com"
-  avatar = "/img/avatar.jpeg"
   
+
   # description = ""
-  
+  avatar = "/img/avatar.jpeg"
   motto = "Things change,Roll with it"
   
   
