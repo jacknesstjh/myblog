@@ -17,12 +17,15 @@ disqusShortname = "tangjackness"
   # backgroundImage = "/me/background.jpg"
   linkColor = "seagreen"
 
+  [params.Author]
   author = "Jackness Tang"
+  email = "tjhchina@gmail.com"
+  
   # description = ""
   avatar = "/img/avatar.jpeg"
   motto = "Things change,Roll with it"
   
-  email = "tjhchina@gmail.com"
+  
   github = "jacknesstjh"
   # linkedin = ""
   # codepen = ""
@@ -43,3 +46,11 @@ disqusShortname = "tangjackness"
   [markup]
   [markup.goldmark.renderer]
     unsafe = true
+
+  [module]
+    [[module.imports]]
+    path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+    
+
+
+
