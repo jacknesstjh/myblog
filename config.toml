@@ -22,7 +22,7 @@ disqusShortname = "tangjackness"
   email = "tjhchina@gmail.com"
 
   [params.Avatar]
-  avatar = "/images/avatar.png"
+  avatarURL = "/img/avatar.png"
 
   
 
