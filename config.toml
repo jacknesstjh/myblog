@@ -21,7 +21,7 @@ theme = "hugo-theme-stack"
 # enableRobotsTXT = true
 
 [params]
-  #comments = true
+  
   background = "black"
   # backgroundImage = "/me/background.jpg"
   linkColor = "seagreen"
