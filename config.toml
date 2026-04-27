@@ -27,9 +27,9 @@ theme = "hugo-theme-stack"
   linkColor = "seagreen"
 
   [params.Comments]
-    enabled = true                    # 开启评论
-    provider = "disqus"               # 使用 Disqus
-    disqus = { shortname = "jackness-me" }   # 替换成你的 Shortname
+  enabled = true                    # 开启评论
+  provider = "disqus"               # 使用 Disqus
+  disqus = { shortname = "jackness-me" }   # 替换成你的 Shortname
 
   [params.Author]
   author = "Jackness Tang"
