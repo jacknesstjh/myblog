@@ -8,7 +8,14 @@ theme = "hugo-theme-stack"
 
 # googleAnalytics = ""
 
-disqusShortname = "tangjackness"
+
+[services.disqus]
+shortname = "jackness-me"   # ← 改成你刚才的 Shortname，例如 myblog-123
+
+# 可选：全局开启评论（很多主题需要）
+[params]
+  comments = true
+
 
 # enableRobotsTXT = true
 
