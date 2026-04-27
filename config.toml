@@ -9,8 +9,8 @@ theme = "hugo-theme-stack"
 # googleAnalytics = ""
 
 
-[services.disqus]
-shortname = "jackness-me"   # ← 改成你刚才的 Shortname，例如 myblog-123
+#[services.disqus]
+#shortname = "jackness-me"   # ← 改成你刚才的 Shortname，例如 myblog-123
 
 #disqusShortname = "jackness-me"
 
@@ -21,10 +21,15 @@ shortname = "jackness-me"   # ← 改成你刚才的 Shortname，例如 myblog-1
 # enableRobotsTXT = true
 
 [params]
-  comments = true
+  #comments = true
   background = "black"
   # backgroundImage = "/me/background.jpg"
   linkColor = "seagreen"
+
+  [params.comments]
+    enabled = true                    # 开启评论
+    provider = "disqus"               # 使用 Disqus
+    disqus = { shortname = "jackness-me" }   # 替换成你的 Shortname
 
   [params.Author]
   author = "Jackness Tang"
