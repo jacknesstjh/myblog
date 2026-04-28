@@ -25,6 +25,12 @@ theme = "hugo-theme-stack"
   background = "black"
   # backgroundImage = "/me/background.jpg"
   linkColor = "seagreen"
+  
+ # motto = "Things change,Roll with it"
+  
+ # github = "jacknesstjh"
+
+ # siteStartYear = 2016
 
   [params.Comments]
   enabled = true                    # 开启评论
@@ -62,8 +68,9 @@ theme = "hugo-theme-stack"
   ignoreLogs = ['warning-goldmark-raw-html']
 
   [markup]
-  [markup.goldmark.renderer]
-    unsafe = true
+   [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
   [module]
     [[module.imports]]
