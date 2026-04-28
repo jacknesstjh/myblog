@@ -60,6 +60,7 @@ theme = "hugo-theme-stack"
   # favicon = "/favicon.ico"
 
   # dark mode
+  darkMode = true
   darkLinkColor = "darkseagreen"
   darkNav = true 
   dark404Button = true
