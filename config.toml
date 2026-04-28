@@ -12,7 +12,7 @@ theme = "hugo-theme-stack"
 #[services.disqus]
 #shortname = "jackness-me"   # ← 改成你刚才的 Shortname，例如 myblog-123
 
-#disqusShortname = "jackness-me"
+disqusShortname = "jackness-me"
 
 # 可选：全局开启评论（很多主题需要）
   
@@ -35,7 +35,7 @@ theme = "hugo-theme-stack"
   [params.Comments]
   enabled = true                    # 开启评论
   provider = "disqus"               # 使用 Disqus
-  disqus = { shortname = "jackness-me" }   # 替换成你的 Shortname
+ # disqus = { shortname = "jackness-me" }   # 替换成你的 Shortname
 
   [params.Author]
   author = "Jackness Tang"
